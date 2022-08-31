@@ -1,0 +1,21 @@
+name: network_font_loader
+description: A plugin that downloads, caches and loads a font hosted on the network.
+version: 0.0.1
+homepage: https://github.com/camrongiuliani/network_font_loader
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_cache_manager: 3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
